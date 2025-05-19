@@ -2,12 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { IonicModule } from '@ionic/angular';
-import { RouterModule } from '@angular/router'; // 👈 Importar esto
+import { RouterModule } from '@angular/router'; 
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CommonModule, IonicModule, RouterModule], // 👈 Agregar aquí
+  imports: [CommonModule, IonicModule, RouterModule],
   templateUrl: './home.page.html',
   styleUrls: ['./home.page.scss'],
 })
